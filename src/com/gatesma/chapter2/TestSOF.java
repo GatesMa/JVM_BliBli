@@ -10,6 +10,13 @@ package com.gatesma.chapter2;
  */
 public class TestSOF {
 
-    
+    public static void main(String[] args) {
+        new TestSOF().test();
+    }
+
+    public void test() {
+        System.out.println("递归");
+        test();
+    }
 
 }
