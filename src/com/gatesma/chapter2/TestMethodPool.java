@@ -20,6 +20,7 @@ public class TestMethodPool {
         String s4 = s1 + "d";
         String s5 = "abcd";
         System.out.println(s4.intern() == s5);
+        s5.hashCode();
     }
     
 }
